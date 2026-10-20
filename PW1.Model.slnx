@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="ConsoleApp1/PW1.Console.csproj" />
+  <Project Path="PW1.BusinessLogic/PW1.BusinessLogic.csproj" Id="e7ec9cad-5beb-4c99-94c4-b7bb83bb7b48" />
+  <Project Path="PW1.DataAccessLayer/PW1.DataAccessLayer.csproj" Id="20e326a5-3664-445b-831d-bd552c8b8394" />
   <Project Path="PW1.Model/PW1.Model.csproj" />
   <Project Path="PW1.WinForms/PW1.WinForms.csproj" />
 </Solution>

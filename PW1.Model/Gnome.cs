@@ -2,14 +2,14 @@
 
 namespace PW1.Model
 {
-    public class Gnome
+    public class Gnome : IDomainObject
     {
         public int Id { get; set; }
-        public string Name { get; set; }         // Имя
-        public string Clan { get; set; }         // Клан
-        public string Profession { get; set; }   // Профессия
-        public int Age { get; set; }             // Возраст
-        public int BeardLength { get; set; }     // Длина бороды (см)
+        public string Name { get; set; }         
+        public string Clan { get; set; }         
+        public string Profession { get; set; }   
+        public int Age { get; set; }             
+        public int BeardLength { get; set; }     
 
         public override string ToString()
         {
